@@ -10,5 +10,3 @@
 ### Experiência Profissional
 
 ### Publicações
-
-### Hobbies
