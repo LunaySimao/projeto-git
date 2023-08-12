@@ -11,7 +11,15 @@ public class Iteradores {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        ArrayList<String> arr = new ArrayList<>();
+        arr.add("Lunay");
+        arr.add("David");
+        arr.add("Ana");
+        arr.add("Lunay");
+        
+        for(String s: arr){
+            System.out.println(s);
+        }
     }
     
 }
