@@ -8,3 +8,7 @@
 - Mestrado em Segurança informática
 
 ### Experiência Profissional
+
+### Publicações
+
+### Hobbies
