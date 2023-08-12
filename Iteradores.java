@@ -12,13 +12,22 @@ public class Iteradores {
      */
     public static void main(String[] args) {
         ArrayList<String> arr = new ArrayList<>();
-        arr.add("Lunay");
-        arr.add("David");
-        arr.add("Ana");
-        arr.add("Lunay");
+        String s1 = "Lunay";
+        String s2 = "David";
+        String s3 = "Ana";
+        String s4 = "Lunay";
+        
+        arr.add(s1);
+        arr.add(s2);
+        arr.add(s3);
+        arr.add(s4);
         
         for(String s: arr){
-            System.out.println(s);
+            if(s.equalsIgnoreCase("David")){
+                arr.remove(s);
+                System.out.println(s);
+                break;
+            }            
         }
     }
     
