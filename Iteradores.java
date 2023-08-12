@@ -10,7 +10,7 @@ public class Iteradores {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Iteradores");
+        System.out.println("Vou estudar POO, prometo!!!");
     }
     
 }
